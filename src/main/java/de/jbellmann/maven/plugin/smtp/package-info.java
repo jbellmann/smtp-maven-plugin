@@ -13,21 +13,4 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package de.jbellmann.smtp;
-
-import org.junit.Test;
-
-/**
- * Throttle maven-execution.
- * 
- * @author Joerg Bellmann
- *
- */
-public class ThrottleIT {
-    
-    @Test
-    public void throttle() throws InterruptedException{
-        Thread.sleep(5000);
-    }
-
-}
+package de.jbellmann.maven.plugin.smtp;

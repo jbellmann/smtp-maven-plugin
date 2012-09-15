@@ -13,21 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package de.jbellmann.smtp;
-
-import org.junit.Test;
+package de.jbellmann.maven.plugin.smtp;
 
 /**
- * Throttle maven-execution.
  * 
  * @author Joerg Bellmann
  *
  */
-public class ThrottleIT {
-    
-    @Test
-    public void throttle() throws InterruptedException{
-        Thread.sleep(5000);
+public final class WiserConstants {
+
+    public static final String WISER = "WISER";
+
+    private WiserConstants() {
+        //hide constructor
     }
 
 }

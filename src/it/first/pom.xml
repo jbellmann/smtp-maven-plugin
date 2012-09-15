@@ -17,7 +17,7 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>de.jbellmann.smtp</groupId>
+                <groupId>de.jbellmann.maven.plugins</groupId>
                 <artifactId>smtp-maven-plugin</artifactId>
                 <version>@project.version@</version>
                 <configuration>
