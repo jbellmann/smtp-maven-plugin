@@ -8,6 +8,7 @@
     </parent>
 	<groupId>de.jbellmann.maven.plugins</groupId>
 	<artifactId>smtp-maven-plugin</artifactId>
+	<version>0.9.0-SNAPSHOT</version>
 	<packaging>maven-plugin</packaging>
 
 	<licenses>
